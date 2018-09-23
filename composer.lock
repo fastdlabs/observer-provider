@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4395396ca16180ae7fdbed7ae4f8e15e",
+    "packages": [
+        {
+            "name": "inhere/event",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inhere/php-event-manager.git",
+                "reference": "e224a5ef5cdae70c2fd7cc5a7f3beeb4b4a380b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inhere/php-event-manager/zipball/e224a5ef5cdae70c2fd7cc5a7f3beeb4b4a380b1",
+                "reference": "e224a5ef5cdae70c2fd7cc5a7f3beeb4b4a380b1",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "suggest": {
+                "inhere/console": "a lightweight php console application library.",
+                "inhere/php-validate": "Very lightweight data validate tool library"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inhere\\Event\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "inhere",
+                    "email": "in.798@qq.com",
+                    "homepage": "http://www.yzone.net/"
+                }
+            ],
+            "description": "event manager library of the php",
+            "homepage": "https://github.com/inhere/php-event-manager",
+            "keywords": [
+                "event",
+                "event-dispatcher",
+                "library"
+            ],
+            "time": "2017-12-29T15:25:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

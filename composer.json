@@ -1,0 +1,17 @@
+{
+    "name": "fastd/observer-provider",
+    "authors": [
+        {
+            "name": "JanHuang",
+            "email": "bboyjanhuang@gmail.com"
+        }
+    ],
+    "require": {
+        "inhere/event": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FastD\\ObserverProvider\\": "src"
+        }
+    }
+}
